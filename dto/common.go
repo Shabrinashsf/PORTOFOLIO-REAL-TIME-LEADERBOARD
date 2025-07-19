@@ -25,4 +25,5 @@ var (
 	ErrUserNotFound            = errors.New("user not found")
 	ErrGeneral                 = errors.New("something went wrong")
 	ErrGetUserById             = errors.New("failed get user by id")
+	ErrParsingUUID             = errors.New("failed parsing string to uuid")
 )
